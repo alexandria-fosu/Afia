@@ -1,5 +1,5 @@
 from nicegui import ui,app
-from sections import hero,welcome,Discover,gallery
+from sections import hero,welcome,Discover,gallery,menu
 
 app.add_static_files("/assets", "assets")
 
@@ -8,11 +8,10 @@ ui.add_head_html('''
 ''')
 
 
-
-
 hero.render()
 welcome.render()
 Discover.discover()
 gallery.gallery()
+
 
 ui.run()

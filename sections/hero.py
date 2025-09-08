@@ -10,7 +10,7 @@ def render():
     
     with ui.element("div").style("background-image:url(assets/images/breakfast-3765559_1280.jpg) ").classes("h-screen w-screen flex flex-col bg-no-repeat bg-cover bg-center"):
         #navbar
-        with ui.element("nav").classes("flex flex-row justtify-between w-screen").style("justify-content:space-around; list-style:none; padding:0; margin:0; Align-items:center; font-size:20px; font-weight:bold; color:#fff"):
+        with ui.element("nav").classes("flex flex-row justtify-between w-screen text-white").style("justify-content:space-around; list-style:none; padding:0; margin:0; Align-items:center; font-size:20px; font-weight:bold; color:#fff"):
 
             ui.image("assets/images/s.png").style("width:80px; hieght: 50px")
 
@@ -23,7 +23,7 @@ def render():
                         {"title": "Contacts", "path": "/"},]
         
             for item in navlinks:
-                ui.link(item["title"], item["path"]).classes("no-underline uppercase")
+                ui.link(item["title"], item["path"]).classes("no-underline uppercase text-white")
                 
             # Using Font Awesome icons for social media
             with ui.row():
