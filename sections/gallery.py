@@ -1,7 +1,7 @@
 from nicegui import ui
 
 def gallery():
-   with ui.grid(columns=3).classes("w-full justify-center p-8 gap-12 mx-8 bg-grey-700"):
+   with ui.grid(columns=3).classes("w-full h-full justify-center p-8 gap-12 mx-8 bg-grey-700 item-center"):
         with ui.column().classes("w-72 items-center"):
             ui.image("assets/images/smoothies-3176371_1280.jpg").classes("w-[400px] h-full rounded-lg shadow-xl")
             ui.label("NATURAL JUICES").classes("mt-4 text-4xl font-semibold")
