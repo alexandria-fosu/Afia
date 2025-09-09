@@ -10,4 +10,4 @@ def render():
 
             ui.link("OUR STORY" ).classes("mt-8 text-black font-semibold no-underline text-red")
         with ui.column().classes("w-full item-end"):
-            ui.image("assets/images/burger-7419421_1280.jpg").classes("w-[500px] h-[500px] shadow-xl rounded-lg")     
+            ui.image("assets/images/burger-7419421_1280.jpg").classes("w-[500px] h-[500px] shadow-xl rounded-lg transition-transform duration-300 hover:scale-110")     
