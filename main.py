@@ -12,6 +12,7 @@ hero.render()
 welcome.render()
 Discover.discover()
 gallery.gallery()
+menu.menu()
 
 
 ui.run()
