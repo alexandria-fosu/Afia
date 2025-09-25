@@ -1,7 +1,7 @@
 from nicegui import ui
 
 def render():
-    with ui.grid(columns=2).classes("w-screen h-screen gap-x-12 items-start justify-between items-center"):
+    with ui.grid(columns=2).classes("w-screen h-screen gap-x-12 items-start justify-between items-center "):
         #the left column text
         with ui.column().classes("gap-4 items-center justify-center"):
             ui.label("Ghanaian Restaurant").classes("text-2xl italic text-red-700")

@@ -7,7 +7,7 @@ ui.add_head_html('''<link rel="preconnect" href="https://fonts.googleapis.com">
 
 
 def menu():
-   with ui.row().classes("justify-center flex flex-col w-full h-full gap-12 p-8 items-center"):
+   with ui.column().classes("justify-center flex flex-col w-full h-full gap-12 p-8 items-center z-10"):
         ui.label("Discover").classes("text-red text-4xl items-center").style("font-family:dancing script,cursive;")
         ui.label("OUR MENU").classes("text-6xl text-bold items-center")
   

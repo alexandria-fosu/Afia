@@ -5,12 +5,12 @@ ui.add_head_html('''<link rel="preconnect" href="https://fonts.googleapis.com">
 
 
 
-
+  
 def render():
     
     with ui.element("div").style("background-image:url(assets/images/breakfast-3765559_1280.jpg) ").classes("h-screen w-screen flex flex-col bg-no-repeat bg-cover bg-center"):
         #navbar
-        with ui.element("nav").classes("flex flex-row justtify-between w-screen fixed text-white bg-black/50").style("justify-content:space-around; list-style:none; padding:0; margin:0; Align-items:center; font-size:20px; font-weight:bold; color:#fff "):
+        with ui.element("nav").classes("flex flex-row justtify-between w-screen fixed text-white bg-black/50 z-10").style("justify-content:space-around; list-style:none; padding:0; margin:0; Align-items:center; font-size:20px; font-weight:bold; color:#fff "):
 
             ui.image("assets/images/s.png").style("width:80px; hieght: 50px")
 
